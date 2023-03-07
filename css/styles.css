@@ -242,6 +242,7 @@ span {
     line-height: 1.5;
     font-weight: 500;
     margin-right: 40px;
+    position: relative;
 }
 .head-menu:last-child {margin-right: 0;}
 
@@ -253,7 +254,16 @@ span {
     line-height: 1.5;
     font-weight: 500;
 }
-
+.head-menu.current::after {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--pressed-state);
+    border-radius: 2px;
+    content: '';
+}
 .section,
 .our-team {padding: 120px 0px;}
 
@@ -385,6 +395,7 @@ span {
     border: 1px solid var(--accent);
 }
 
+
 .description-div-svg {
     display: flex;
     align-items: center;
@@ -394,6 +405,25 @@ span {
     background-color: var(--light);
     width: 264px;
     height: 112px;
+}
+.description-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.description-div-text {
+    background-color: var(--primary-Brand);
+    color: var(--light);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms;
+}
+.description-image:hover .description-div-text {
+    transform: translateY(0%);
 }
 /*команда*/
 .our-team {
