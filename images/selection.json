@@ -4,70 +4,29 @@
     {
       "icon": {
         "paths": [
-          "M1024 512c0 282.77-229.23 512-512 512s-512-229.23-512-512c0-282.77 229.23-512 512-512s512 229.23 512 512z",
-          "M1002.667 512c0 270.988-219.679 490.667-490.667 490.667s-490.667-219.679-490.667-490.667c0-270.988 219.679-490.667 490.667-490.667s490.667 219.679 490.667 490.667z",
-          "M682.667 375.71l-34.377-34.377-136.29 136.29-136.29-136.29-34.377 34.377 136.29 136.29-136.29 136.29 34.377 34.377 136.29-136.29 136.29 136.29 34.377-34.377-136.29-136.29 136.29-136.29z"
+          "M1024 103.131l-103.131-103.131-408.869 408.869-408.869-408.869-103.131 103.131 408.869 408.869-408.869 408.869 103.131 103.131 408.869-408.869 408.869 408.869 103.131-103.131-408.869-408.869 408.869-408.869z"
         ],
         "attrs": [
-          {
-            "fill": "rgb(231, 233, 252)"
-          },
-          {
-            "fill": "none",
-            "stroke": "rgb(0, 0, 0)",
-            "strokeLinejoin": "miter",
-            "strokeLinecap": "butt",
-            "strokeMiterlimit": "4",
-            "strokeWidth": 42.666666666666664
-          },
-          {
-            "fill": "rgb(46, 47, 66)"
-          }
+          {}
         ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
         "grid": 0,
         "tags": [
           "modal-close"
-        ],
-        "isMulticolor": true,
-        "isMulticolor2": true,
-        "colorPermutations": {
-          "123123325214647661": [
-            {
-              "f": 2
-            },
-            {
-              "s": 0
-            },
-            {
-              "f": 1
-            }
-          ]
-        }
+        ]
       },
       "attrs": [
-        {
-          "fill": "rgb(231, 233, 252)"
-        },
-        {
-          "fill": "none",
-          "stroke": "rgb(0, 0, 0)",
-          "strokeLinejoin": "miter",
-          "strokeLinecap": "butt",
-          "strokeMiterlimit": "4",
-          "strokeWidth": 42.666666666666664
-        },
-        {
-          "fill": "rgb(46, 47, 66)"
-        }
+        {}
       ],
       "properties": {
-        "order": 22,
-        "id": 0,
+        "order": 30,
+        "id": 1,
         "name": "modal-close",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 0
     },
     {
@@ -116,7 +75,7 @@
         "name": "anten",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 0
     },
@@ -356,7 +315,7 @@
         "name": "astronaut",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 4
     },
@@ -394,7 +353,7 @@
         "name": "brand",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 8
     },
@@ -464,7 +423,7 @@
         "name": "clock",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 10
     },
@@ -511,7 +470,7 @@
         "name": "company",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 13
     },
@@ -552,7 +511,7 @@
         "name": "company2",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 15
     },
@@ -598,7 +557,7 @@
         "name": "company3",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 17
     },
@@ -626,7 +585,7 @@
         "name": "facebook",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 19
     },
@@ -658,7 +617,7 @@
         "name": "foster",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 21
     },
@@ -688,7 +647,7 @@
         "name": "instagram",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 23
     },
@@ -768,7 +727,7 @@
         "name": "laptop",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 25
     },
@@ -798,7 +757,7 @@
         "name": "linkedin",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 28
     },
@@ -826,7 +785,7 @@
         "name": "twitter",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 30
     },
@@ -855,7 +814,7 @@
         "name": "yaco",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 32
     }
