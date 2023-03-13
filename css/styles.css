@@ -74,8 +74,6 @@ img {
     border-bottom: solid;
     color: var(--accent);
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .main-title-section {
     background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bcg-title.jpg);
@@ -236,6 +234,8 @@ span {
 .ul-head-menu {
     display: flex;
     list-style: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
     gap: 40px;
 }
 
@@ -249,7 +249,7 @@ span {
     position: relative;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: var(--brand-color);
+    transition-property: color;
 }
 .head-menu:last-child {margin-right: 0;}
 
@@ -260,7 +260,9 @@ span {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
-    transition-property: var(--brand-color);
+}
+.current {
+    color: var(--pressed-state);
 }
 .current::after {
     position: absolute;
@@ -681,29 +683,37 @@ span {
 .modal-close {
     display: flex;
     position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
     top: 24px;
     right: 24px;
-    
+    border: 1px;
+    border-radius: 50%;
     cursor: pointer;
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(231, 233, 252, 1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color, background-color;
     
 }
 .modal-close:focus
 .modal-close:hover{
     color: var(--white);
     background-color: rgba(64, 75, 191, 1);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
+    
 .modal-close-svg {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 8px;
     height: 8px;
     fill: rgba(46, 47, 66, 1);
-    border: 1px;
-        border-color: rgba(0, 0, 0, 0.1);
-        background-color: rgba(231, 233, 252, 1);
-        border-radius: 50%;
 }
 .modal-close-svg:hover
 .modal-close-svg:focus{
