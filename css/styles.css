@@ -170,19 +170,15 @@ span {
     line-height: 1.5;
     font-weight: 500;
     font-family: inherit;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: display, background-color;
 }
 
 .order-service:hover {
     display: inline-block;
-    padding: 16px 32px;
     color: var(--white);
     background-color: var(--pressed-state);
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 500;
-    font-family: inherit;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button {
@@ -208,23 +204,18 @@ span {
     line-height: 1.5;
     font-weight: 500;
     font-family: inherit;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color,background-color;
 }
 
 .nav-button:hover,
 .nav-button:focus {
     color: var(--light);
     background-color: var(--pressed-state);
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 500;
-    font-family: inherit;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
         0px 2px 1px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-button-li {
     margin-right: 24px;
@@ -234,12 +225,12 @@ span {
 .ul-head-menu {
     display: flex;
     list-style: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
     gap: 40px;
 }
 
 .head-menu {
+    display: inline-block;
+    padding: 24px 0;
     color: var(--brand-color);
     text-decoration: none;
     font-size: 16px;
@@ -256,10 +247,6 @@ span {
 .head-menu:hover,
 .head-menu:focus {
     color: var(--pressed-state);
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 500;
 }
 .current {
     color: var(--pressed-state);
@@ -305,6 +292,9 @@ span {
 
 .album-link{
     display: block;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: box-shadow;
 
 }
 .album-link:hover,
@@ -313,8 +303,6 @@ span {
         0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address {
     display: flex;
@@ -329,16 +317,14 @@ span {
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 
 .contacts:hover,
 .contacts:focus {
     color: var(--pressed-state);
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 1.5;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .second-title {
@@ -425,6 +411,9 @@ span {
     position: relative;
     overflow: hidden;
     width: 360px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: all;
 }
 
 .description-div-text {
@@ -437,6 +426,9 @@ span {
     height: 100%;
     transform: translateY(100%);
     transition: transform 250ms;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: all;
     
     
 }
@@ -447,8 +439,6 @@ span {
 .description-image:hover .description-div-text, 
 .description-image:focus .description-div-text {
     transform: translateY(0%);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*команда*/
 .our-team {
@@ -529,12 +519,13 @@ span {
     border-radius: 50%;
     width: 100%;
     height: 100%;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color;
 }
 .social-link:hover,
 .social-link:focus {
     background-color: var(--pressed-state);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials {
@@ -570,13 +561,14 @@ span {
     justify-content: center;
     width: 100%;
     height: 100%;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: none;
 }
 .customer-link:hover .customer-svg,
 .customer-link:focus .customer-svg {
     border-color: var(--pressed-state);
     fill: #404BBF;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-svg {
     display: flex;
@@ -585,6 +577,9 @@ span {
     width: 104px;
     height: 56px;
     fill: var(--customer-gray);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
 }
 
 .customer-li {
@@ -593,6 +588,9 @@ span {
     margin-right: 24px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: none;
 
 }
 .customer-li:last-child{
@@ -601,8 +599,6 @@ span {
 .customer-li:hover,
 .customer-li:focus {
     border-color: var(--pressed-state);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-ul-footer {
@@ -630,12 +626,13 @@ span {
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color;
 }
 .social-link-footer:hover,
 .social-link-footer:focus {
     background-color: #31D0AA;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -692,6 +689,7 @@ span {
     border: 1px;
     border-radius: 50%;
     cursor: pointer;
+    color: var(--modal-overlay);
     border-color: rgba(0, 0, 0, 0.1);
     background-color: rgba(231, 233, 252, 1);
     transition-duration: 250ms;
@@ -703,19 +701,19 @@ span {
 .modal-close:hover{
     color: var(--white);
     background-color: rgba(64, 75, 191, 1);
+    fill: rgba(255, 255, 255, 1);
 
 }
 
     
 .modal-close-svg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 8px;
     height: 8px;
     fill: rgba(46, 47, 66, 1);
 }
-.modal-close-svg:hover
-.modal-close-svg:focus{
+
+.modal-close-svg:focus 
+.modal-close-svg:hover {
     fill: rgba(255, 255, 255, 1);
+
 }
