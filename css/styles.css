@@ -172,7 +172,7 @@ span {
     font-family: inherit;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: display, background-color;
+    transition-property: background-color;
 }
 
 .order-service:hover {
@@ -206,7 +206,7 @@ span {
     font-family: inherit;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color,background-color;
+    transition-property: color, background-color, box-shadow, background-color;
 }
 
 .nav-button:hover,
@@ -698,18 +698,16 @@ span {
     
 }
 .modal-close:focus
-.modal-close:hover{
+.modal-close:hover {
     color: var(--white);
     background-color: rgba(64, 75, 191, 1);
-    fill: rgba(255, 255, 255, 1);
 
 }
 
     
-.modal-close-svg {
-    width: 8px;
+.modal-close-svg {width: 8px;
     height: 8px;
-    fill: rgba(46, 47, 66, 1);
+    fill: var(--brand-color);
 }
 
 .modal-close-svg:focus 
